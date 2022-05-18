@@ -16,7 +16,7 @@ import com.aleilton.controller.model.PessoaDAO;
 import com.google.gson.Gson;
 
 @Path("api")
-public class MyResource {
+public class PessoaController {
   private PessoaDAO dao = new PessoaDAO();
 
   @GET

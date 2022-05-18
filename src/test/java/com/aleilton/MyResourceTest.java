@@ -7,7 +7,7 @@ import org.glassfish.jersey.test.JerseyTest;
 
 import org.junit.Test;
 
-import com.aleilton.controller.MyResource;
+import com.aleilton.controller.PessoaController;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,7 +15,7 @@ public class MyResourceTest extends JerseyTest {
 
     @Override
     protected Application configure() {
-        return new ResourceConfig(MyResource.class);
+        return new ResourceConfig(PessoaController.class);
     }
 
     /**
